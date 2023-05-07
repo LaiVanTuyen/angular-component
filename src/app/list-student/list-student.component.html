@@ -1,0 +1,10 @@
+<p>list-student works!</p>
+<p>Id Sinh vien: {{students.id}}</p>
+<p>Ten Sinh vien: {{students.name}}</p>
+<p>Diem Sinh vien {{students.mark}}</p>
+<p>hinh anh sinh vien </p><img src="{{students.image}}" alt="">
+
+
+<label>cham diem</label>
+<input type="number" (change)="getMark($event.target.value)"  placeholder="nhap diem">
+
